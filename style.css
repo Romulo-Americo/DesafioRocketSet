@@ -1,0 +1,84 @@
+body{
+    width: 1280px;
+    height: 720px;
+    background: #2C2B3D;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 607px;
+    margin-top: 71px;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap:64px;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+#corpo{
+    display: flex;
+    align-items: center;
+    width: 1092px;
+    height: 283px;
+    margin: 202px 89px 235px 99px;
+}
+main{
+    display: flex;
+    gap: 82px;
+}
+
+section{
+    align-items: center;
+    justify-content: center; 
+}
+h1{
+    font-weight: normal;
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 59px;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+}
+span{
+    color: #00BFA6;;
+}
+strong{
+    color: #C2C2C2;
+}
+
+.linha{
+    display: flex;
+    margin-left: 356px;
+    margin-right: 356px;
+    border: 1px solid #00BFA6;
+    width: 568px;
+}
+.rodape{
+    font-size: 14px;
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.logo{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
